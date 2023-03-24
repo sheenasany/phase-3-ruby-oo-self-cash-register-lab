@@ -18,6 +18,8 @@ class CashRegister
 
        self.last_transaction = price * quantity
         @total += last_transaction
+        # the #item method of the test is asking you to set our items to an empty array
+        # and add the title to each item to the array each time, even duplicates
         quantity.times do 
             @items << title
         end
